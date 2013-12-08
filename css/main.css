@@ -128,7 +128,7 @@ a { text-decoration: none; color: white; font-weight: 700;}
 .welcome {
     display: inline-block;
     width: 30%;
-    background-color: rgba(214,119, 119, 0.4);
+    background-color: rgba(214,119, 119, 0.5);
     padding: 1em;
     font-weight: 700;
     text-align: justify;
@@ -139,53 +139,45 @@ a { text-decoration: none; color: white; font-weight: 700;}
     float: right;
     background-color: rgba(214,119, 119, 0.4);
     padding: 1em;
-    font-weight: 700;
     text-align: justify;
-}
-
-.projects a:hover,
-.assignments a:hover {
-    color: black;
-    font-weight: 700;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    transition: color 0.3s;
 }
 
 /*Image transition*/
 .rollover_img {
-width: 100%;
-background-image: url(/img/cubbylife.jpg);
-background-position: top;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border: 5px solid #511f1f;
-line-height: 18px;
-float: left;
-margin: 0 10px 10px 0;
+    width: 100%;
+    background-image: url('/img/cubblylife.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 3px solid #511f1f;
+    line-height: 18px;
+    float: left;
+    margin: 0 10px 10px 0;
 }
 
 .rollover_img a {
-color: #ffffff;
-width: 100%;
-height: 150px;
-display: block;
+    color: #ffffff;
+    width: 100%;
+    height: 150px;
+    display: block;
 }
 
 .rollover_img a:hover {
-background:#000;
-opacity:.40;
-filter:alpha(opacity=40);
+    background:#000;
+    opacity:.40;
+    filter:alpha(opacity=40);
 }
 
 .rollover_img a span {
-display: none;
-width: 100%;
-padding:5px;
+    display: none;
+    width: 100%;
+    padding:5px;
 }
 
 .rollover_img a:hover span {
-display: block;
+    display: block;
 }
 
 /*Sticky Footer http://www.cssstickyfooter.com/style.css*/
