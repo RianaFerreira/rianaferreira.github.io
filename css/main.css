@@ -136,23 +136,25 @@ textarea {
         }
 
         #intro,
-        #learn,
-        #network {
+        #learn {
+            margin: 0 auto;
             min-width: 20em;
             display: inline-block;
             padding: 0 1em;
-            width: 30%;
+            width: 40%;
             text-align: justify;
             vertical-align: top;
         }
 
         .socialContainer {
-            margin-left: 40%;
+            display: inline-block;
+            margin: 0 auto;
+            width: 10%;
         }
 
         .social {
-            display: inline-block;
-            text-align: left;
+            display: block;
+            text-align: center;
             padding: 0 .4em 0 .4em;
             line-height: 2em;
             font-size: 2em;
@@ -165,11 +167,9 @@ textarea {
         }
 
 
-
     /* ==========================================================================
        Project showcase
        ========================================================================== */
-
         .showcase {
             display: block;
             width: 100%;
@@ -205,16 +205,16 @@ textarea {
             -moz-transform-origin: 50% 0%;
         }
 
-            .project:hover {
-                background-color: #B7E7F6;
-                width: 20%;
-                height: 100%;
-                z-index: 1;
-                -moz-transform:rotate(180deg);
-                -webkit-transform:rotate(180deg);
-                -o-transform:rotate(180deg);
-                transform:rotate(180deg);
-            }
+        .project:hover {
+            background-color: #B7E7F6;
+            width: 20%;
+            height: 100%;
+            z-index: 1;
+            -moz-transform:rotate(180deg);
+            -webkit-transform:rotate(180deg);
+            -o-transform:rotate(180deg);
+            transform:rotate(180deg);
+        }
 
 
     /* ==========================================================================
@@ -223,7 +223,30 @@ textarea {
 
         footer {
             line-height: 3em;
+            padding: 1em;
             background-color: #0E0C40;
+            color: #F2F2F2;
+        }
+
+        footer p {
+            display: inline-block;
+            width: 60%;
+            line-height: 1.5em;
+            padding-right: 1em;
+        }
+
+        .inspiLinks {
+            display: inline-block;
+            width: 20%;
+            float: right;
+            margin: 1em;
+        }
+
+        .inspiLinks a {
+            display: block;
+            text-align: right;
+            line-height: 1.5em;
+            text-decoration: none;
             color: #F2F2F2;
         }
 
