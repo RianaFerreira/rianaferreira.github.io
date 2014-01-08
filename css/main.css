@@ -186,19 +186,22 @@ textarea {
 
         .work a {
             display: inline-block;
-            min-width: 25em;
-            height: 20em;
+            min-width: 22em;
+            height: 15em;
             margin: 1em;
             background-size: contain;
             background-repeat: no-repeat;
-            box-shadow: 0 0 .5em #B7E7F6;
+        }
+
+        .work a:hover {
+            box-shadow: -.5em 0 .5em #B7E7F6;
         }
 
         .work aside {
             position: relative;
             display: inline-block;
             top: 0;
-            min-width: 25em;
+            min-width: 22em;
             width: 50%;
             padding: 1em;
         }
