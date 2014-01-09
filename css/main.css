@@ -154,9 +154,10 @@ textarea {
             width: 40%;
             text-align: justify;
             vertical-align: top;
+            letter-spacing: .03em;
         }
 
-        #intro { min-width: 18em;}
+        #intro { min-width: 18em; }
 
         .socialContainer {
             display: inline-block;
